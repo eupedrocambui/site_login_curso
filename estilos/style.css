@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(125, 37, 206);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Início Configs do Section */
+section {
+    background-color: white;
+    border-radius: 20px;
+
+    width: 400px;
+    height: 600px;
+}
+
+section h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.8em;
+}
+
+section p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+/* Fim Configs do Section */
+
+/* Início Configs Login e Imagem */
+#login {
+    padding: 0px 15px 20px 15px;
+}
+
+#imagem {
+    height: 250px;
+    background-image: url('../imagens/metal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Fim Configs Login e Imagem */
+
+/* Início Configs Container e Content */
+.container {
+    position: relative;
+
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+/* Fim Configs Container e Content */
+
+/* Início Configs Campos de Input */
+.campo {
+    background-color: rgb(101, 29, 168);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* Fim Configs Campos de Input */
+
+/* Início Configs Google Icons */
+.material-symbols-outlined {
+    color: white;
+    padding: 7px;
+    font-size: 40px;
+}
+
+#icon-email {
+    color: rgb(21, 232, 28);
+    padding: 7px;
+    font-size: 40px;
+}
+/* Fim Configs Google Icons */
