@@ -21,7 +21,7 @@ section {
     border-radius: 20px;
 
     width: 400px;
-    height: 600px;
+    height: 630px;
 }
 
 section h1 {
@@ -70,15 +70,69 @@ section p {
 }
 /* Fim Configs Container e Content */
 
-/* Início Configs Campos de Input */
+/* Início Configs Form */
 .campo {
     background-color: rgb(101, 29, 168);
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 7px;
+    width: 100%;
 }
-/* Fim Configs Campos de Input */
+
+.input {
+    width: 83%;
+    border-radius: 5px;
+}
+
+#entrar {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+    background-color: #53aaa7;
+
+    font-size: 1.2em;
+    color: white;
+}
+
+#entrar:hover {
+    background-color: #3a7574;
+}
+
+#esqueci-senha {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #53aaa7;
+    border-radius: 7px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+#esqueci-senha a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    
+    color: #3a7574;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#esqueci-senha span {
+    font-size: 0.8em;
+    color: #3a7574;
+}
+
+#esqueci-senha:hover {
+    background-color: #65cfcb;
+}
+/* Fim Configs Form */
 
 /* Início Configs Google Icons */
 .material-symbols-outlined {
