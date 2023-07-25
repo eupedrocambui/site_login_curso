@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to right top, rgb(125, 37, 206), rgb(28, 220, 201));
+    }
+    .content {
+        width: 80vw;
+        height: 370px;
+    }
+
+    #login {
+        float: right;
+
+        width: 70%;
+    }
+    
+    #imagem {
+        float: left;
+
+        width: 30%;
+        height: 100%;
+
+        border-top-right-radius: 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to right top, rgb(125, 37, 206), rgb(28, 220, 201));
+    }
+
+    .content {
+        width: 950px;
+        height: 420px;
+    }
+
+    #login {
+        float: left;
+
+        width: 50%;
+        height: 100%;
+    }
+
+    #imagem {
+        float: right;
+
+        width: 50%;
+        height: 100%;
+
+        border-top-left-radius: 0px;
+    }
+}
