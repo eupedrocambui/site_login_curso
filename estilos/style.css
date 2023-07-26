@@ -79,10 +79,12 @@ section p {
 
 /* Início Configs Form */
 .campo {
+    position: relative;
+
     background-color: rgb(101, 29, 168);
     margin-top: 5px;
     margin-bottom: 5px;
-    display: inline-block;
+    display: block;
     border-radius: 7px;
     width: 100%;
 }
@@ -90,6 +92,11 @@ section p {
 .input {
     width: 83%;
     border-radius: 5px;
+    height: 40px;
+
+    position: absolute;
+    top: 15%;
+    
 }
 
 #entrar {
@@ -106,6 +113,7 @@ section p {
 
 #entrar:hover {
     background-color: #3a7574;
+    cursor: pointer;
 }
 
 #esqueci-senha {
@@ -138,6 +146,7 @@ section p {
 
 #esqueci-senha:hover {
     background-color: #65cfcb;
+    cursor: pointer;
 }
 /* Fim Configs Form */
 
